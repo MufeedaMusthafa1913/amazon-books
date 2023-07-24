@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+nav{
+    margin: 10px;
+    padding: 2px;
+   background-color: #1d1c1d;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    justify-content: left;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    justify-content: space-between;
+    margin: 10px;
+    display: flex;
+}
+#hello{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+ 
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+#name::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://th.bing.com/th/id/R.265d94d8455ce93a16b413132165c726?rik=KxpIzlliSsk12g&pid=ImgRaw&r=0');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.main{
+    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    display: flex;
+}
+h1{
+    font-family: 'Diplomata SC', cursive;
+    font-size: 50px;
+   color: rgb(56, 35, 35);
+   text-decoration: overline white;
+
+
+    
+}
+#buy{
+ display: flex;
+ background-color: whitesmoke;
+ flex-direction: column;
+ float: left;
+ justify-content: space-evenly;
+
+}
+div{
+    float: left;
+    margin: 10px;
+    
+
+#edit{ 
+    border: 5px double black;
+    width:300px;
+    height: 400px;
+   justify-content: space-between;
+    align-items: center;
+    float: left;
+    z-index: -1;
+
+
+    
+}
+#edit a img {
+   justify-content: center;
+    width: 300px;
+    height: 350px;
+}
+
+.col1{
+    border: 5px double black;
+    width:300px;
+    height: 420px;
+  justify-content: center;
+    align-items: center;
+}
+.col2{
+    border: 5px double black;
+    width:300px;
+    height: 420px;
+   justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.col3{
+    border: 5px double black;
+    width:300px;
+    height: 420px;
+   justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.col4{
+    border: 5px double black;
+    width:300px;
+    height: 420px;
+   justify-content: space-evenly;
+    align-items: center;
+}
